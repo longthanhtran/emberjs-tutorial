@@ -1,0 +1,5 @@
+<ul>
+  {{#each programmers as |programmer|}}
+  <li {{action 'hello' programmer.name}}>{{programmer.name}}</li>
+  {{/each}}
+</ul>
